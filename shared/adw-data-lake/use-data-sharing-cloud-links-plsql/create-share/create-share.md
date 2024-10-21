@@ -43,10 +43,12 @@ This lab assumes that you have successfully completed all of the preceding labs 
     >**Note:** To drop a share, use the `DBMS_SHARE.DROP_SHARE` procedure as follows:
 
     ```
+    <copy>
     BEGIN
         DBMS_SHARE.DROP_SHARE('demo_live_share');
     END;
     /
+    </copy>
     ```
 
 2. Verify the creation of the data share. Copy and paste the following script into your SQL Worksheet, and then click the **Run Statement** icon in the Worksheet toolbar.
@@ -142,12 +144,14 @@ This lab assumes that you have successfully completed all of the preceding labs 
     >**Note:** To remove a table from a share, use the following script:
 
     ```
+    <copy>
     BEGIN
     DBMS_SHARE.REMOVE_FROM_SHARE(
         share_name=>'demo_live_share',
         share_table_name => 'custsales'
     );
     END;
+    </copy>
     ```
 
 ## Task 4: Publish the Data Share
