@@ -6,7 +6,7 @@ In this lab, we are going to connect to the Autonomous AI Database we provisione
 
 Estimated Time: 15 minutes
 
-### Objectives
+### Objectives 
 
 In this lab, you will:
 
